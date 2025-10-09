@@ -196,7 +196,7 @@ const OtpPage = () => {
         setSessionId(null);
         setOtp('');
       } else {
-        setError('Invalid OTP code');
+        setError('Incorrect OTP. Try again.');
       }
 
     } catch (err) {
